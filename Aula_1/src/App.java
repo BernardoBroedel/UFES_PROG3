@@ -1,5 +1,9 @@
 public class App {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Pessoa pessoa = new Pessoa();
+
+        pessoa = pessoa.ler();
+
+        System.out.println(pessoa);
     }
 }
